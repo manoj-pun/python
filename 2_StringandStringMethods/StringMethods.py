@@ -56,3 +56,50 @@
 # print(result)
 
 
+
+##########Replace and Modify############
+
+#replace()
+# text = "I like Java"
+# result = text.replace("like","hate") #replaces substring
+# print(result)
+
+#strip()
+# text = " I like Python "
+# result = text.strip() #by default it removes spaces
+# print(result)
+
+# text = "I like Java"
+# result = text.strip("Java")
+# print(result)
+
+# lstrip()
+# text = " I like python "
+# print(len(text))
+# result = text.lstrip() #removes left spaces
+# print(len(result))
+# print(result)
+
+#rstrip()
+# text = " I like python "
+# print(len(text))
+# result = text.rstrip() #removes right spaces
+# print(len(result))
+# print(result)
+
+#or
+# text = " I like python "
+# result = text.rstrip() #removes right spaces
+# print(repr(result))
+
+#or
+# text = " I like python "
+# result = text.lstrip()
+# print(f"[{result}]")
+
+# or
+# text = " I like python "
+# result = text.lstrip().rstrip()
+# print(repr(result))
+
+
