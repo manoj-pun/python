@@ -13,7 +13,7 @@
 
 
 #Pythonic version
-def clean_name(raw):
-    return " ".join(raw.split()).title()
+# def clean_name(raw):
+#     return " ".join(raw.split()).title()
 
-print(clean_name(" jOHN mICHAEL dOE "))
+# print(clean_name(" jOHN mICHAEL dOE "))

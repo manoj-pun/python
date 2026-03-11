@@ -66,7 +66,7 @@
 
 #strip()
 # text = " I like Python "
-# result = text.strip() #by default it removes spaces
+# result = text.strip() #by default it removes spaces at beginning and ending
 # print(result)
 
 # text = "I like Java"
