@@ -144,5 +144,53 @@
 # result = "".join(words)
 # print(result)
 
-numbers = ["2026", "03", "11"]
-print("-".join(numbers))
+# numbers = ["2026", "03", "11"]
+# print("-".join(numbers))
+
+
+###########Checking Methods (Return True/False)###########
+#isalnum()
+# text = "Python123"
+# result = text.isalnum() #checks if alphanumeric
+# print(result)
+
+#isalpha()
+# text = "Python123"
+# result = text.isalpha() #check if only letters
+# print(result)
+
+#isdigit()
+# text = "Python123"
+# result = text.isdigit() #checks if only digits
+# print(result)
+
+#islower()
+# text = "Python123"
+# result = text.islower() #checks all uppercase
+# print(result)
+
+#isupper()
+# text = "Python123"
+# result = text.isupper() #checks all lowercase
+# print(result)
+
+#isspace()
+# text = "   "
+# result = text.isspace() #checks only space
+# print(result)
+
+#istitle()
+# text = "Python123"
+# result = text.istitle()
+# print(result)
+
+#########Formatting########
+name = "Alice"
+age = 20
+
+#format()
+result = "My name is {}".format(name)
+print(result)
+
+#f-string
+f"My name is {name}"
