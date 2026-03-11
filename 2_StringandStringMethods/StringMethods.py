@@ -103,3 +103,46 @@
 # print(repr(result))
 
 
+
+#############Split and Join##########
+# text = "mango,apple,banana"
+# result = text.split()  #splits into list
+# print(result)
+
+#Syntax
+# string.split(separator, maxsplit)
+#separator-The character used to split the string
+#maxsplit-Maximum number of splits
+#If you don't provide anything, Python splits using whitespace (spaces, tabs, newlines).
+
+# text = "Python is very powerful"
+# result = text.split()
+# print(result)
+# #Python splits wherever it finds spaces
+# # Returns a list of words
+
+#using maxsplit
+# text = "one two three four five"
+# result = text.split(" ", 2)
+# print(result)
+#Python splits only 2 times
+#Remaining string stays together
+
+#rsplit()
+# text = "apple,banana,cherry,date"
+# # Split only once starting from the right
+# result = text.rsplit(",", 1)
+# print(result)
+
+#join()
+# Syntax
+# separator.join(iterable)
+# separator-The string placed between elements
+# iterable-List, tuple, or other iterable of strings
+
+# words = ["Python", "is", "awesome"]
+# result = "".join(words)
+# print(result)
+
+numbers = ["2026", "03", "11"]
+print("-".join(numbers))
