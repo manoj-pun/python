@@ -2,6 +2,11 @@
 #A list in Python is a built-in data structure used to store multiple items in a single variable
 #It is ordered, mutable (changeable), and allows duplicate values.
 
+#Tuple
+# A tuple in Python is an ordered, immutable collection of elements.
+# Unlike lists, tuples cannot be modified after creation, so they have very few methods.
+#Below methods are for list and tuple is immutable below methods cannot be applied however we can apply count() and index()
+
 #chainging list
 # fruits = ["apple","banana"]
 # fruits[0] = "mango"
