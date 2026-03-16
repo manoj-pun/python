@@ -24,5 +24,11 @@
 #     i += 1
 
 #comprehension
+# n = 5
+# [print("* " * i) for i in range(1, n + 1)]
+
+#more pythonic
 n = 5
-[print("* " * i) for i in range(1, n + 1)]
+
+for i in range(1, n + 1):
+    print("* " * i)
