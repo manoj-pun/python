@@ -11,6 +11,9 @@ usernamePasswords = {
 def login(username, password):
     attempts = 3
 
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+
     while attempts > 0:
         if username in usernamePasswords and usernamePasswords[username] == password:
             print(f"Welcome, {username}!")
