@@ -27,22 +27,42 @@
 #  *******
 
 # Full Pyramid Pattern
-rows = 4
+# rows = 4
 
-row = 0
-while row < rows:
-    # Print leading spaces
-    for i in range(rows - row - 1):
-        print(" ", end="")
+# row = 0
+# while row < rows:
+#     # Print leading spaces
+#     for i in range(rows - row - 1):
+#         print(" ", end="")
     
-    # Print stars
-    for i in range(2 * row + 1):
-        print("*", end="")
+#     # Print stars
+#     for i in range(2 * row + 1):
+#         print("*", end="")
     
-    print()        
-    row += 1
+#     print()        
+#     row += 1
 
 ################################
+#Inverted pyramid
+# *******
+#  *****
+#   ***
+#    *
+
+rows = 4
+row = 0
+
+while row < rows:
+    # Print leading spaces
+    for i in range(row):
+        print(" ", end="")
+    
+    # Print stars (decreasing)
+    for i in range(2 * (rows - row) - 1):
+        print("*", end="")
+    
+    print()          
+    row += 1
 
 ################################
 
