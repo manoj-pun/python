@@ -49,22 +49,47 @@
 #   ***
 #    *
 
-rows = 4
-row = 0
+# rows = 4
+# row = 0
 
-while row < rows:
-    # Print leading spaces
-    for i in range(row):
-        print(" ", end="")
+# while row < rows:
+#     # Print leading spaces
+#     for i in range(row):
+#         print(" ", end="")
     
-    # Print stars (decreasing)
-    for i in range(2 * (rows - row) - 1):
-        print("*", end="")
+#     # Print stars (decreasing)
+#     for i in range(2 * (rows - row) - 1):
+#         print("*", end="")
     
-    print()          
-    row += 1
+#     print()          
+#     row += 1
 
 ################################
+#    *
+#   ***
+#  *****
+# *******
+#  *****
+#   ***
+#    *
+n = 7  
+
+if n % 2 == 0:
+    n += 1
+
+mid = (n + 1) // 2
+
+# Top half
+for i in range(1, mid + 1):
+    stars = 2 * i - 1
+    spaces = (n - stars) // 2
+    print(" " * spaces + "*" * stars)
+
+# Bottom half
+for i in range(mid - 1, 0, -1):
+    stars = 2 * i - 1
+    spaces = (n - stars) // 2
+    print(" " * spaces + "*" * stars)
 
 ################################
 
