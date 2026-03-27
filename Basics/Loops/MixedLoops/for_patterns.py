@@ -41,17 +41,81 @@
 # 4 5 6
 # 7 8 9 10
 
-number = 1
+# number = 1
 
-for i in range(1, 5):
-    for j in range(1, i + 1):
-        print(number, end=" ")
-        number += 1
-    print()
-
-############################################
+# for i in range(1, 5):
+#     for j in range(1, i + 1):
+#         print(number, end=" ")
+#         number += 1
+#     print()
 
 ############################################
+#Pascal’s Triangle
+# 1
+# 1 1
+# 1 2 1
+# 1 3 3 1
+
+# Pascal's Triangle using while + for
+# rows = 4
+# i = 0  # row counter
+
+# while i < rows:
+#     # print spaces to center
+#     for j in range(rows - i - 1):
+#         print("", end="")
+
+#     val = 1
+#     for j in range(i + 1):
+#         print(val, end=" ")
+#         # update next value in row using combinatorial formula
+#         val = val * (i - j) // (j + 1)
+
+#     print()
+#     i += 1
+
+############################################
+# Butterfly Pattern
+# *      *
+# **    **
+# ***  ***
+# ********
+# ***  ***
+# **    **
+# *      *
+
+# Butterfly pattern using while + for
+# rows = 4
+# i = 1
+
+# # Upper half
+# while i <= rows:
+#     # left stars
+#     for j in range(i):
+#         print("*", end="")
+#     # spaces
+#     for j in range(2 * (rows - i)):
+#         print(" ", end="")
+#     # right stars
+#     for j in range(i):
+#         print("*", end="")
+#     print()
+#     i += 1
+
+# # Lower half
+# i = rows
+# while i >= 1:
+#     # left stars
+#     for j in range(i):
+#         print("*", end="")
+#     # spaces
+#     for j in range(2 * (rows - i)):
+#         print(" ", end="")
+#     # right stars
+#     for j in range(i):
+#         print("*", end="")
+#     print()
+#     i -= 1
 
 ############################################
 
