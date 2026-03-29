@@ -25,13 +25,13 @@
 # #     These are attributes specific to an object, defined inside a special method called __init__.
 # #     You don't have to explicitly call __init__ yourself — Python calls it automatically when you create an object.
 
-# class Student:
-#     name = "Manoj"
+class Student:
+    name = "Manoj"
 
-#     def __init__(self):
-#         print("This is the demo that everything inside __init__ run without calling it")
+    def __init__(self):
+        print("This is the demo that everything inside __init__ runs without calling it")
 
-# s1 = Student()
+s1 = Student()
 # print(s1.name)
 
 # # NOTE: Every method inside the class should have the first parameter `self` that denotes the current object,
