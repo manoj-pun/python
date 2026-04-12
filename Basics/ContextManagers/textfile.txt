@@ -1,0 +1,3 @@
+Alice is 30 and lives in New York.
+Bob is 25 and lives in London.
+Charlie is 35 and lives in Tokyo.
