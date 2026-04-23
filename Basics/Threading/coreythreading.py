@@ -19,4 +19,4 @@ print(result)
 result1 = time.time()
 print(result1)
 
-#started with threading
+#started with corey threading
